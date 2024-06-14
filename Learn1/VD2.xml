@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Tvschedule SYSTEM "VD2.2.dtd">
+<Tvschedule Name="Truyền Hình Huế">
+    <Channel Chan="Huế">
+        <Banner>Câu chuyện thường ngày</Banner>
+        <Day>
+            <Date>15/6</Date>
+            <Holiday>18/6</Holiday>
+            <Programslot Vturn="1">
+                <Time>7:15:39</Time>
+                <Title Rating="0.1" Language="Vietnamese">Khởi động 1 ngày mới</Title>
+                <Description>Một ngày mới bắt đầu và tôi tự hỏi mình đã ăn sáng chưa ?</Description>
+            </Programslot>
+        </Day>
+    </Channel>
+</Tvschedule>

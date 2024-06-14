@@ -15,13 +15,13 @@
 ]>
 
 <Document>
-    <Customer type = "Good">
+    <Customer>
         <Name>
             <Last_Name>Nguyen Trung</Last_Name>
             <First_Name>Hieu</First_Name>
         </Name>
         <Date>11/1/2111</Date>
-        <Orders class = "SanPham">
+        <Orders>
             <Item>
                 <Product>Radio</Product>
                 <Number>101</Number>

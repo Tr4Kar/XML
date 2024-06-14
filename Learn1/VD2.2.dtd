@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Tvschedule (Channel+)>
+<!ELEMENT Channel (Banner, Day+)>
+<!ELEMENT Banner (#PCDATA)>
+<!ELEMENT Day (Date, (Holiday | Programslot+)+)>
+<!ELEMENT Holiday (#PCDATA)>
+<!ELEMENT Date (#PCDATA)>
+<!ELEMENT Programslot (Time, Title, Description?)>
+<!ELEMENT Time (#PCDATA)>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT Description (#PCDATA)>
+
+<!ATTLIST Tvschedule Name CDATA #REQUIRED>
+<!ATTLIST Channel Chan CDATA #REQUIRED>
+<!ATTLIST Programslot Vturn CDATA #IMPLIED>
+<!ATTLIST Title Rating CDATA #IMPLIED>
+<!ATTLIST Title Language CDATA #IMPLIED>
