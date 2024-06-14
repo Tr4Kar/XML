@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Document [
+    <!ELEMENT Document (Customer)*>
+    <!ELEMENT Customer (Name, Date, Orders)>
+    <!ELEMENT Name (Last_Name, First_Name)>
+    <!ELEMENT Last_Name (#PCDATA)>
+    <!ELEMENT First_Name (#PCDATA)>
+    <!ELEMENT Date (#PCDATA)>
+    <!ELEMENT Orders (Item)*>
+    <!ELEMENT Item (Product, Number, Price)>
+    <!ELEMENT Product (#PCDATA | Product_ID)*>
+    <!ELEMENT Number (#PCDATA)>
+    <!ELEMENT Price (#PCDATA)>
+    <!ELEMENT Product_ID (#PCDATA)>
+]>
+
+<Document>
+    <Customer type = "Good">
+        <Name>
+            <Last_Name>Nguyen Trung</Last_Name>
+            <First_Name>Hieu</First_Name>
+        </Name>
+        <Date>11/1/2111</Date>
+        <Orders class = "SanPham">
+            <Item>
+                <Product>Radio</Product>
+                <Number>101</Number>
+                <Price>1000</Price>
+            </Item>
+            <Item>
+                <Product>Books</Product>
+                <Number>101</Number>
+                <Price>20</Price>
+            </Item>
+        </Orders>
+    </Customer>
+</Document>
