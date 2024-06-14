@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <!-- Nếu DTD được khai báo bên trong file bên ngoài được nằm trong định nghĩa-->
+<!DOCTYPE In1 SYSTEM "My1.dtd">
+<In1>
+    <to>My Friends</to>
+    <from>In The World</from>
+    <heading>Reminder Me</heading>
+    <body>Don't forget anyone</body>
+</In1>
