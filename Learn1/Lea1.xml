@@ -2,6 +2,10 @@
     <!-- Khai báo DTD internal-->
     <!-- DTD (Document Type Definition) là tài liệu dùng để định nghĩa kiểu dữ liệu cho các phần tử của tài liệu XML-->
     <!-- Khi đọc tài liệu XML, chỉ cần đọc phần DTD là sẽ biết được cấu trúc XML-->
+    <!-- Với một DTD, mỗi file XML có thể mang một mô tả định dạng của nó-->
+    <!-- Các nhóm độc lập có thể chấp nhận một chuẩn DTD để trao đổi dữ liệu-->
+    <!-- Một ứng dụng có thể sử dụng một DTD chuẩn để kiểm tra dữ liệu nhận về từ bên ngoài xem có hợp lệ hay không-->
+    <!-- Nếu DTD được khai báo bên trong file XML được nằm trong định nghĩa DOCTYPE-->
 <!DOCTYPE note [
     <!ELEMENT note (to, from,heading,body)>
     <!ELEMENT to (#PCDATA)>
@@ -9,6 +13,9 @@
     <!ELEMENT heading (#PCDATA)>
     <!ELEMENT body (#PCDATA)>
 ]>
+    <!--!DOCTYPE note: định nghĩa phần tử gốc của tài liệu là note-->
+    <!--!ELEMENT note: định nghĩa tập hợp note chứa 4 phần tử-->
+    <!--!ELEMENT to: định nghĩa tập hợp to thuộc kiểu #PCDATA -->
 <note>
     <to>Tr Tr4Kar</to>
     <from>Vietnamese</from>
