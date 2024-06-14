@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <!-- Khai báo DTD internal-->
+    <!-- DTD (Document Type Definition) là tài liệu dùng để định nghĩa kiểu dữ liệu cho các phần tử của tài liệu XML-->
+    <!-- Khi đọc tài liệu XML, chỉ cần đọc phần DTD là sẽ biết được cấu trúc XML-->
+<!DOCTYPE note [
+    <!ELEMENT note (to, from,heading,body)>
+    <!ELEMENT to (#PCDATA)>
+    <!ELEMENT from (#PCDATA)>
+    <!ELEMENT heading (#PCDATA)>
+    <!ELEMENT body (#PCDATA)>
+]>
+<note>
+    <to>Tr Tr4Kar</to>
+    <from>Vietnamese</from>
+    <heading>Reminder</heading>
+    <body>Don't forget</body>
+</note>
