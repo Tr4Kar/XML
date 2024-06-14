@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <!--CDATA (character data): là đoạn text không được phân tích cú pháp bởi trình phân tích cú pháp-->
+    <!--PCDATA (parsed  character data): có nghĩa là dữ liệu ký tự được phân tích cú pháp-->
+    <!--ANY: phần tử chứa dữ liệu bất kỳ-->
+<TurtorCDATA>
+    <Post>
+        <Title>Tìm hiểu về CDATA</Title>
+        <Code>
+            <![CDATA[
+                <?xml version="1.0" encoding="UTF-8"?>
+                <Persons>
+                    <Person>Tr Tr4Kar</Person>
+                </Persons>
+            ]]>
+        </Code>
+    </Post>
+</TurtorCDATA>
+    <!--value: giá trị mặc định của thuộc tính-->
+    <!--REQUIRED: thuộc tính yêu cầu cần có-->
+    <!--IMPLIED: thuộc tính tùy chọn-->
+    <!--FIXED value: thuộc tính cố định-->

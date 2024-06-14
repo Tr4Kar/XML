@@ -1,5 +1,6 @@
-<!ELEMENT In1 (to,from,heading,body)>
+<!ELEMENT In1 (to,from,heading,body,br)>
 <!ELEMENT to (#PCDATA)>
 <!ELEMENT from (#PCDATA)>
 <!ELEMENT heading (#PCDATA)>
 <!ELEMENT body (#PCDATA)>
+<!ELEMENT br EMPTY>
