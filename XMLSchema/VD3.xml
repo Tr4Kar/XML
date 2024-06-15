@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="VD3Style.xsl" type="text/xsl"?>
+<!--Check https://xslttest.appspot.com/-->
+<monhoc>
+    <cd>
+        <mamon>CSDL</mamon>
+        <tenmon>Cơ sở dữ liệu</tenmon>
+        <donvi>3</donvi>
+    </cd>
+    <cd>
+        <mamon>MCB</mamon>
+        <tenmon>Mạng căn bản</tenmon>
+        <donvi>2</donvi>
+    </cd>
+    <cd>
+        <mamon>THCS</mamon>
+        <tenmon>Tin học cơ sở</tenmon>
+        <donvi>1</donvi>
+    </cd>
+    <cd>
+        <mamon>CTDL</mamon>
+        <tenmon>Cấu trúc dữ liệu và giải thuật</tenmon>
+        <donvi>3</donvi>
+    </cd>
+    <cd>
+        <mamon>XLA</mamon>
+        <tenmon>Xử lý ảnh</tenmon>
+        <donvi>2</donvi>
+    </cd>
+    <cd>
+        <mamon>WEB</mamon>
+        <tenmon>Phát triển ứng dụng trên nền Web</tenmon>
+        <donvi>4</donvi>
+    </cd>
+    <cd>
+        <mamon>SERV</mamon>
+        <tenmon>Phát triển phần mềm hướng dịch vụ</tenmon>
+        <donvi>4</donvi>
+    </cd>
+</monhoc>

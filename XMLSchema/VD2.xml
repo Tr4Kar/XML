@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="VD2Style.xsl"?>
+<!--Check https://xslttest.appspot.com/-->
+<songone>
+    <cd>
+        <author>David Kushner</author>
+        <song>Daylight</song>
+    </cd>
+    <cd>
+        <author>twenty one pilots</author>
+        <song>Leave The City</song>
+    </cd>
+    <cd>
+        <author>2WEI, Ali Christenhusz</author>
+        <song>Lightbringer</song>
+    </cd>
+    <cd>
+        <author>VALORANT</author>
+        <song>VISIONS</song>
+    </cd>
+</songone>
