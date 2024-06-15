@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" standalone = "yes"?>
+<!DOCTYPE address [
+   <!ELEMENT address (#PCDATA)>
+   <!ENTITY Newspaper "Vervet Logic Times">
+   <!ENTITY Publisher "Vervet Logic Press">
+   <!ENTITY Copyright "Copyright 1998 Vervet Logic Press">
+]>
+<address>
+   &Newspaper;
+   &Publisher;
+   &Copyright;
+</address>

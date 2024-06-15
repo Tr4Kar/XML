@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Newspaper SYSTEM "VD3.3.dtd">
+<Newspaper>
+    <Article Author="TrTr4Kar" Editor="Tr.Tr4Kar">
+        <Headline>Âm Nhạc C</Headline>
+        <Byline>Tr.Tr4Kar</Byline>
+        <Lead>Bạn thích thể loại nhạc nào ?</Lead>
+        <Body>Có rất nhiều thể loại nhạc trên thế giới này. Và....</Body>
+        <Notes>Nghe cẩn thận</Notes>
+    </Article>
+</Newspaper>

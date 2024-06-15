@@ -1,0 +1,16 @@
+<!ELEMENT Newspaper (Article+)>
+<!ELEMENT Article (Headline, Byline, Lead, Body, Notes)>
+<!ELEMENT Headline (#PCDATA)>
+<!ELEMENT Byline (#PCDATA)>
+<!ELEMENT Lead (#PCDATA)>
+<!ELEMENT Body (#PCDATA)>
+<!ELEMENT Notes (#PCDATA)>
+
+<!ATTLIST Article Author CDATA #REQUIRED>
+<!ATTLIST Article Editor CDATA #IMPLIED>
+<!ATTLIST Article Date CDATA #IMPLIED>
+<!ATTLIST Article Edition CDATA #IMPLIED>
+
+<!ENTITY Newspaper "Vervet Logic Times">
+<!ENTITY Publisher "Vervet Logic Press">
+<!ENTITY Copyright "Copyright 1998 Vervet Logic Press">

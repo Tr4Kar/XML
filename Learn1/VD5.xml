@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Catalog SYSTEM "VD5.5.dtd">
+<Catalog>
+    <Product Partnum="2" Plant="Chicago" Category="HandTool" name="Cake" Inventory="Backordered">
+        <Specifications Power="1" Weight="3">....</Specifications>
+        <Options Finish="Meta" Adapter="Included" Case="Soft"></Options>
+        <Price Msrp="1" Wholesale="Han" Street="" Shipping=""></Price>
+    </Product>
+</Catalog>
