@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="STT">
+        <xs:simpleType>
+            <xs:restriction base="xs:integer">
+                <xs:minInclusive value="1"/>
+                <xs:maxInclusive value="160"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="Serinumber">
+        <xs:simpleType>
+            <xs:restriction base="xs:integer">
+                <xs:pattern value="[1][0][1][1][1][0-9][0-9][0-9][0-9][0-9][0-9]{11}"></xs:pattern>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="Name">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="[a-zA-Z]{100}"></xs:pattern>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="Phone">
+        <xs:simpleType>
+            <xs:restriction base="xs:integer">
+                <xs:pattern value="[0][0-9]{10}"></xs:pattern>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="Email">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="[a-zA-Z0-9]{10}@gmail.com"></xs:pattern>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="Class">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="[D][1][C][1-10]"></xs:pattern>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="Soy">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="K"></xs:pattern>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+</xs:schema>
